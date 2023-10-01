@@ -41,4 +41,7 @@ export default defineConfig({
     FeaturedImageDownloader(),
     PublicNotionCopier(),
   ],
+  build: {
+    chunkSizeWarningLimit: 1600
+  }
 });
